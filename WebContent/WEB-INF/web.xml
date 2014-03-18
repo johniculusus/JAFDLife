@@ -12,16 +12,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>Home</servlet-name>
-    <url-pattern>/home.jsp</url-pattern>
+    <url-pattern>/home</url-pattern>
   </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>Wordpress</display-name>
-    <servlet-name>Wordpress</servlet-name>
-    <servlet-class>jafd.wordpress.HomeAction</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Wordpress</servlet-name>
-    <url-pattern>/home.jsp</url-pattern>
-  </servlet-mapping>
+
 </web-app>
